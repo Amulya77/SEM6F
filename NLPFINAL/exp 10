@@ -1,0 +1,10 @@
+import nltk 
+from nltk.sentiment import SentimentIntensityAnalyzer
+
+nltk.download('vader_lexicon')
+
+sia = SentimentIntensityAnalyzer()
+
+print(sia.polarity_scores("I love the taste of boiled eggs."))
+print(sia.polarity_scores("I don't like the taste of pizza."))
+print(sia.polarity_scores("I ordered this burger today."))
