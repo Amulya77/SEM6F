@@ -1,8 +1,4 @@
-//By Shubharthak
-/*
-    Date: 5th May 2023
-        Description: Implementation of stack using 2 queues. 
-*/
+
 
 #include<bits/stdc++.h>
 using namespace std; 
